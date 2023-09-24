@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery page, photos of the Berserk Manga.">
+    <title>Berserk Fan Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <img src="Images/Berserklogo.webp" alt="Logo" height="32px" class="d-inline-block px-2">
+      <a class="navbar-brand" href="#">BERSERK</a>
+        <button class="navbar-toggler border-0"  aria-label="dropdown">
+        <input type="checkbox" id="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+        <label for="checkbox" class="toggle">
+          <div class="bars" id="bar1"></div>
+          <div class="bars" id="bar2"></div>
+          <div class="bars" id="bar3"></div>
+        </label>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="characters.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="timeline.html">Timeline</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page"  href="gallery.html">Gallery</a>
+                </li>
+              </ul>
+            </div>
+          </div>      
+        </nav>
+        <section id="galeria">
+          <main>
+            <!-- Carousel -->
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="image"><img src="Images/eclipse.webp" width="100%" alt=""></div>          
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>El eclipse</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="image"><img src="Images/berserker armor.webp" width="100%" alt=""></div>          
+          
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>Armadura Berserker</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="image"><img src="Images/Skull-knight.webp" width="100%" alt=""></div>          
+          
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>Skull knight</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="image"><img src="Images/Nacimiento.webp" width="100%" alt=""></div>          
+          
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>Nacimiento de Guts</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="image"><img src="Images/Femto born.webp" width="100%" alt=""></div>          
+          
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>Nacimiento de Femto</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> <!-- /.Carousel -->
+          
+          
+          
+            <div class="container">
+          
+              <!-- Characters images -->
+              <div class="row m-4">
+                <div class="col-lg-4">
+                  <img src="Images/guts.webp" class="rounded-circle" width="140" height="140" alt="Guts">
+                  <h2 class="fw-normal">Guts</h2>
+                  <p>"Si no puedes vivir tu vida como quieres, es mejor que estés muerto."</p>
+                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col -->
+                <div class="col-lg-4">
+                  <img src="Images/godo.webp" class="rounded-circle" width="140" height="140" alt="Godo">
+          
+                  <h2 class="fw-normal">Godo</h2>
+                  <p>"El rencor es el lugar al que huyen aquellos que se han enfrentado a la tristeza y no han logrado soportarla."</p>
+                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col -->
+                <div class="col-lg-4">
+                  <img src="Images/Judeau.webp" class="rounded-circle" width="140" height="140" alt="Godo">
+          
+                  <h2 class="fw-normal">Judeau</h2>
+                  <p>"Ya sea bueno o malo, es muy desafortunado despertarse durante un sueño"</p>
+                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col -->
+              </div><!-- /.row -->
+          
+          
+              <!-- START THE FEATURETTES -->
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">"¿Desde cuándo mi espada pesa tanto?"</h2>
+                  <p class="lead pt-2">La espada de Guts, conocida como la "Dragon Slayer", es extremadamente grande y pesada 
+                    aunque no se especifica un peso exacto en la serie, se cree que ronda aproximadamente 130 kilos y mide casi 2 metros.</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="image mx-auto"><img src="Images/espada.webp" class="img-fluid" width="500" height="500" alt=""></div>
+                </div> <!-- /.col -->
+              </div> <!-- /.row -->
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">Desarrollo de personaje</h2>
+                  <p class="lead pt-2">Nacido en un campo de batalla bajo la sombra de un cadaver, 
+                    fue adoptado por mercenarios, quienes desde joven, lo convirtieron en un hábil guerrero.
+                    Inicialmente solitario y cínico debido a su pasado, Guts muestra lealtad hacia sus amigos, 
+                    especialmente Casca. A lo largo de la serie, evoluciona de un guerrero amargado a un líder 
+                    compasivo, sanando su trauma y aprendiendo a confiar y formar lazos de amistad. Esta evolución es central en "Berserk."</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                  <div class="image mx-auto"><img src="Images/evol.webp" class="img-fluid" width="500" height="500" alt=""></div>
+                </div> <!-- /.col -->
+              </div> <!-- /.row -->
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">La banda del Halcón</span></h2>
+                  <p class="lead pt-2">Kentaro Miura comentó que creó a los
+                    personajes principales que acabarían siendo miembros
+                    de la Banda del Halcón basándose en amigos suyos.
+                    Sin embargo, él no se comparaba con Griffith o Guts, 
+                    sino con Pippin, especialmente en cuanto al físico</p>
+                </div> <!-- /.col -->
+                <div class="col-md-5">
+                  <div class="image mx-auto"><img src="Images/banda del halcon.webp" class="img-fluid" width="500" height="500" alt=""></div>
+                </div> <!-- /.col -->
+              </div> <!-- /.row -->
+          
+              <hr class="featurette-divider">
+          
+          
+            </div><!-- /.container -->
+          
+          
+        <!-- footer -->
+        <footer class="d-flex flex-wrap justify-content-center py-3 px-4 my-4 border-top border-secondary">
+          <img src="Images/Berserklogo.webp" class="d-inline-block px-4" height="32px" alt="Berserk Logo">
+          <p class="text-white align-middle">&copy; 2023 Berserk Fan Page / <small>Por: Omar Ballesteros</small></p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
